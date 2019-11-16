@@ -1,0 +1,312 @@
+body {
+    margin: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+.navbar {
+    width: 75%;
+    margin: 0 auto;
+    padding: 36px 20px 36px 20px;
+    display: grid;
+    grid-template-columns: 15% 1fr 25%;
+    
+}
+
+#logo {
+    width: 150px;
+    height: auto;
+    cursor: pointer;
+}
+
+
+
+.menu-list {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+
+}
+
+.menu-item {
+    margin-right: 20px;
+    margin-left: 20px;
+}
+
+
+.cta {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.cta-btn {
+    padding: 12px 36px 12px 36px;
+    border: none;
+    border-radius: 5px;
+}
+
+.landing-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 65vh;
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 10vh;
+}
+
+#tagline {
+    margin-top: 30%;
+    margin-bottom: 40px;
+}
+
+#landing-img {
+    margin-top: 10vh;
+    width: 100%;
+}
+
+.full-section {
+    width:100vw !important;
+}
+
+#feedin-intro {
+    width: 100vw;
+    height: 400px;
+    padding-top: 10vh;
+}
+
+#feedin-intro-title, #feedin-intro-text {
+    text-align: center;
+}
+
+#feedin-intro-text {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+
+.section {
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 20vh;
+    padding-bottom: 10vh;
+}
+
+.section-headline {
+    padding-right: 10vw;
+    margin-bottom: 10px;
+}
+
+.section-text {
+    padding-top: 3vh;
+    padding-right: 12vw;
+}
+.section-illustration {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.two {
+    grid-auto-flow: column dense;
+
+}
+
+.divider {
+    width: 100px;
+    height: 16px;
+}
+
+.three .section-illustration {
+    width: 90%;
+}
+
+.two .section-illustration {
+    width: 80%;
+}
+
+.partners-section {
+    width: 100vw;
+    height: 400px;
+    padding-top: 10vh;
+}
+
+.partners-section-headline {
+    text-align: center;
+}
+
+.partners-logos {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6vh;
+    
+}
+
+.partner-img {
+    padding: 40px;
+}
+
+.testimonials {
+    width: 100vw;
+    height: 600px;
+    padding-top: 10vh;
+    padding-bottom: 10vh;
+}
+
+.testimonials-headline {
+    text-align: center;
+    margin-bottom: 20vh;
+}
+
+.testimonials-container {
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 10px;
+}
+
+.testimonial-box {
+    width: 100%;
+    height: auto;
+    border-radius: 4px;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.testimonial-image {
+    width: 25%;
+    margin-top: -15%;
+    
+}
+
+.test-text {
+    padding: 40px 20px 40px 20px;
+}
+
+.engage {
+    display: grid;
+    grid-template-columns: 1fr 1px 1fr;
+    padding: 20px;
+}
+
+.engage-divider {
+    height: 300px;
+}
+
+.people-engage {
+    text-align: center;
+}
+
+.business-engage {
+    text-align: center;
+}
+
+.engage-headline {
+    margin-top: 10%;
+}
+
+.footer {
+    width: 100%;
+    border-top: 1px solid #EFEFEF;
+    padding-top: 10vh;
+}
+
+.footer-container {
+    width: 75%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 1fr 1fr
+}
+
+#footer-branding {
+    width: 120px;
+    height: auto;
+}
+
+.footer-right {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.footer-list {
+    list-style-type: none;
+}
+
+.footer-list-item {
+    margin-bottom: 14px;
+}
+
+.footer-bottom {
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 40px;
+}
+
+.social {
+    margin-top: 24px;
+}
+
+a .fab {
+    margin-right: 24px;
+}
+
+#whyfeedin-img {
+    width: 75%;
+    margin-top: 5vh;
+}
+
+#whyfeedin-headline, #partners-headline {
+    margin-top: 20%;
+    width: 85%;
+}
+
+.landing-text {
+    width: 75%;
+}
+
+.action-banner {
+    height: 300px;
+}
+
+.action-banner-headline {
+    padding-top: 6%;
+}
+
+#partners-img {
+    width: 100%;
+    margin-top: 10vh;
+
+}
+
+#partners-landing-divider {
+    width: 75%;
+    border: 1px solid #EFEFEF;
+}
+
+.partners-sublanding {
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 100px;
+    padding-bottom: 4vh;
+}
+
+.perks {
+    text-align: center;
+}
+
+#secondary-action-banner-headline {
+    margin-top: 0;
+}
+
+
+

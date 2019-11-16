@@ -1,0 +1,135 @@
+$accent-color: #12C97A;
+$text-color: rgb(85, 85, 85);
+$link-hover: #00B567;
+
+
+a {
+    color: $text-color;
+}
+
+.cta-btn {
+    background-color: $accent-color;
+    color: white;
+}
+
+.cta-btn:hover {
+    background-color: $link-hover;
+}
+
+a .menu-item:hover {
+    color: $accent-color;   
+}
+
+#feedin-intro {
+    background-color: $accent-color;
+}
+
+#feedin-intro-title {
+    color: white;
+}
+
+#feedin-intro-text {
+    color: white;
+    
+}
+
+.section-text {
+    color: $text-color;
+}
+
+.divider {
+    background-color: $accent-color;
+}
+
+.section-btn {
+    color: $accent-color;
+}
+
+.section-btn:hover {
+    color: $link-hover;
+}
+
+.partners-section {
+    background-color: #FAFAFA;
+}
+
+.partners-section-headline {
+    color: black;
+}
+
+.testimonials {
+    background-color: $accent-color;
+}
+
+.testimonials-headline {
+    color: white;
+}
+
+.testimonial-box {
+    background-color: white;
+}
+
+.author-title {
+    color: $text-color;
+}
+
+.engage-divider {
+    background-color: #EFEFEF;
+}
+
+.engage-btn {
+    color: $accent-color;
+}
+
+.copyright {
+    color: $text-color;
+}
+
+a .fab {
+    opacity: .5;
+}
+
+.footer-list-item:hover {
+    color: $accent-color;
+}
+
+#whyfeedin-headline, #partners-headline, #about-headline {
+    color: $accent-color;
+}
+
+.landing-text {
+    color: $text-color;
+}
+
+.action-banner {
+    background-color: $accent-color;
+}
+
+.action-banner-headline {
+    color: white;
+}
+
+.banner-btn {
+    color: white;
+}
+
+.perk-text {
+    color: $text-color;
+}
+
+#secondary-action-banner {
+    background-color: white;
+}
+
+#secondary-action-banner-headline {
+    color: black;
+}
+
+#secondary-banner-btn {
+    color: $text-color;
+}
+
+
+
+
+

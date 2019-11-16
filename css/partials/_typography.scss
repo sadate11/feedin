@@ -1,0 +1,144 @@
+$system-font: "Chivo", sans-serif;
+$display-font: "DM Serif Display", serif;
+
+body {
+    font-family: $system-font;
+    -webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+    
+}
+
+h1 {
+    font-family: $display-font;
+}
+
+.menu-item {
+    font-size: 15px;
+}
+
+.cta-btn {
+    font-size: 15px;
+}
+
+#tagline {
+    font-size: 3.4vw;
+    font-weight: normal;
+}
+
+#feedin-intro-title {
+    font-size: 3em;
+    font-weight: normal;
+}
+
+#feedin-intro-text {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.section-headline {
+    font-size: 3em;
+    font-weight: normal;
+    line-height: 60px;
+}
+
+.section-text {
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.section-btn {
+    font-family: $display-font;
+    font-size: 1.2em;
+}
+
+.fas {
+    font-size: .7em;
+}
+
+.social-item {
+    font-size: 1em;
+}
+
+.partners-section-headline {
+    font-size: 2.4em;
+    font-weight: normal;
+}
+
+.testimonials-headline {
+    font-size: 2.4em;
+    font-weight: normal;
+}
+
+.test-text {
+    font-family: $display-font;
+    font-style: italic;
+    font-size: 100%;
+}
+
+.test-author {
+    font-size: 1.2em;
+}
+
+.author-title {
+    font-size: 1em;
+}
+
+.engage-headline {
+    font-family: $display-font;
+    font-size: 1.8em;
+}
+
+.footer-list-item {
+    font-size: 14px;
+}
+
+.copyright {
+    font-size: 16px;
+}
+
+a .fab {
+    font-size: 1.2em;
+}
+
+#whyfeedin-headline, #partners-headline, #about-headline {
+    font-size: 3em;
+    font-weight: normal;
+
+}
+
+.landing-text {
+    font-size: 18px;
+    line-height: 28px;
+}
+
+.action-banner-headline {
+    font-size: 2.4em;
+    font-weight: normal;
+    text-align: center;
+}
+
+.banner-btn {
+    text-align: center;
+}
+
+.perk-headline {
+    font-family: $display-font;
+    font-size: 2em;
+}
+
+.perk-text {
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
