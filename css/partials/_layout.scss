@@ -139,11 +139,12 @@ a {
 }
 
 .partners-logos {
-    width: 100%;
-    display: flex;
-    justify-content: center;
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     align-items: center;
-    margin-top: 6vh;
+
     
 }
 
@@ -307,6 +308,118 @@ a .fab {
 #secondary-action-banner-headline {
     margin-top: 0;
 }
+
+#hamburger {
+    display: none;
+}
+
+
+//======== RESPONSIVE STYLING ============
+//Mobile responsive design
+@media (max-width: 599px) { 
+    .navbar {
+        width: 90%;
+        margin: 0 auto;
+        padding-top: 40px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        
+    }
+
+   .menu {
+       display: none;
+   }
+
+   #hamburger {
+       display: block;
+       width: 30px;
+       height: 30px;
+       margin-left: 80%;
+   }
+
+   .cta {
+       display: none;
+   }
+
+   #logo {
+       width: 120px;
+       height: auto;
+   }
+
+   .landing-container {
+       display: grid;
+       grid-template-columns: 1fr;
+       height: auto;
+       width: 90%;
+   }
+
+   .landing-container div:nth-of-type(1) {
+    order: 2;
+  }
+
+  #tagline {
+      font-size: 2em;
+      margin-top: 6vh;
+  }
+
+
+  #feedin-intro-title {
+      font-size: 2em;
+  }
+
+  #feedin-intro-text {
+      font-size: 16px;
+      margin: 20px;
+  }
+
+  .section {
+      display: grid;
+      grid-template-columns: 1fr;
+      width: 90%;
+  }
+
+  .section.two {
+      grid-template-columns: 1fr;
+  }
+
+  
+
+  .section div:nth-of-type(1) {
+    order: 1;
+  }
+
+  .two div:nth-of-type(1) {
+    order: 2;
+  }
+
+
+
+  .section-headline {
+      font-size: 2.4em;
+      line-height: 44px;
+      margin-top: 6vh;
+  }
+
+  .partners-logos {
+    width: 90%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;  
+}
+
+.partner-img {
+    width: 75%;
+}
+
+
+
+
+
+   
+
+
+}
+
 
 
 
