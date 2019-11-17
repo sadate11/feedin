@@ -650,6 +650,7 @@ a .fab {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
     width: 90%;
+    padding-top: 10vh;
   }
   .section.two {
     display: block;
