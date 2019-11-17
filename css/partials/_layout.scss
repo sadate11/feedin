@@ -6,6 +6,10 @@ a {
     text-decoration: none;
 }
 
+.main-container {
+    overflow: hidden;
+}
+
 
 .navbar {
     width: 75%;
@@ -149,7 +153,7 @@ a {
 }
 
 .partner-img {
-    padding: 40px;
+    margin: 0 auto;
 }
 
 .testimonials {
@@ -379,9 +383,8 @@ a .fab {
   }
 
   .section.two {
-      grid-template-columns: 1fr;
+      display: block;
   }
-
   
 
   .section div:nth-of-type(1) {
@@ -408,8 +411,69 @@ a .fab {
 }
 
 .partner-img {
-    width: 75%;
+    width: 50%;
 }
+
+.testimonials-container {
+    width: 90%;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.testimonials {
+    height: auto;
+}
+
+.testimonial-box {
+    margin-bottom: 10vh;
+}
+
+.partners-section {
+    margin: 0 auto;
+    height: auto;
+    padding-bottom: 8vh;
+}
+
+.engage {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.engage-divider {
+    height: 1px;
+}
+
+.people-engage {
+    padding-bottom: 6vh;
+}
+
+.footer-container {
+    grid-template-columns: 1fr;
+    width: 90%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.footer-container div:nth-child(1) {
+    order: 2;
+}
+
+
+.footer-list-item {
+    font-size: 16px;
+}
+
+.footer-right {
+    text-align: center;
+    grid-template-columns: 1fr;
+    padding-bottom: 8vh;
+}
+
+.footer-bottom {
+    grid-template-columns: 1fr;
+    text-align: center;
+}
+  
 
 
 
