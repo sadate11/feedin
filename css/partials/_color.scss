@@ -5,7 +5,7 @@ $link-hover: #00B567;
 
 a {
     color: $text-color;
-}
+} 
 
 .cta-btn {
     background-color: $accent-color;
@@ -127,6 +127,23 @@ a .fab {
 
 #secondary-banner-btn {
     color: $text-color;
+}
+
+.hamburger-item {
+    color: $accent-color;
+}
+
+.soon-text {
+    color: $text-color;
+}
+
+#return-btn {
+    color: white;
+    background-color: $accent-color;
+}
+
+#return-btn:hover {
+    background-color: $link-hover;
 }
 
 

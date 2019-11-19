@@ -1,6 +1,6 @@
 body {
     margin: 0;
-}
+} 
 
 a {
     text-decoration: none;
@@ -56,7 +56,7 @@ a {
 .landing-container {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    height: 65vh;
+    height: auto;
     width: 75%;
     margin: 0 auto;
     padding-bottom: 10vh;
@@ -73,7 +73,7 @@ a {
 }
 
 .full-section {
-    width:100vw !important;
+    width:auto;
 }
 
 #feedin-intro {
@@ -100,14 +100,18 @@ a {
     padding-bottom: 10vh;
 }
 
+.image-box {
+    text-align: center;
+}
+
 .section-headline {
-    padding-right: 10vw;
+    padding-right: 4vw;
     margin-bottom: 10px;
 }
 
 .section-text {
     padding-top: 3vh;
-    padding-right: 12vw;
+    padding-right: 3vw;
 }
 .section-illustration {
     width: 85%;
@@ -210,6 +214,7 @@ a {
 
 .business-engage {
     text-align: center;
+    padding-bottom: 6vh;
 }
 
 .engage-headline {
@@ -278,11 +283,13 @@ a .fab {
 }
 
 .action-banner {
-    height: 300px;
+    height: auto;
+    padding: 60px;
+    margin: 0 auto;
 }
 
 .action-banner-headline {
-    padding-top: 6%;
+    padding: 0;
 }
 
 #partners-img {
@@ -317,6 +324,41 @@ a .fab {
     display: none;
 }
 
+.soon-container {
+    width: 75%;
+    margin: 0 auto;
+    padding-bottom: 20vh;
+}
+
+.soon-header {
+    text-align: center;
+    margin-top: 36px;
+}
+
+#soon-logo {
+    width: 150px;
+    height: auto;
+}
+
+.soon-body {
+    margin-top: 20vh;
+    text-align: center;
+}
+
+#return-btn {
+    padding: 14px 24px 14px 24px;
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+
+
+
+
+
 
 //======== RESPONSIVE STYLING ============
 //Mobile responsive design
@@ -328,6 +370,15 @@ a .fab {
         display: grid;
         grid-template-columns: 1fr 1fr;
         
+    }
+    .soon-text {
+        font-size: 1.5em;
+    }
+
+    .soon-container {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 20vh;
     }
 
    .menu {
@@ -465,6 +516,7 @@ a .fab {
     font-size: 16px;
 }
 
+
 .footer-right {
     text-align: center;
     grid-template-columns: 1fr;
@@ -478,6 +530,53 @@ a .fab {
 
 .testimonials-headline, .partners-section-headline {
     font-size: 2em;
+}
+
+#about-img {
+    width: 50%;
+    margin-top: 5vh;
+}
+
+#partners-landing-divider {
+    width: 100%;
+}
+
+.partners-sublanding {
+    grid-template-columns: 1fr;
+}
+
+#partners-headline {
+    margin-right: 0;
+}
+
+.landing-text {
+    margin: 0;
+}
+
+.menu-container {
+    margin-top: 10vh;
+    list-style-type: none;
+    text-align: left;
+    margin-left: 10vw;
+}
+
+.hamburger-item {
+    padding-bottom: 20px;
+}
+
+.close {
+    padding-top: 40px;
+    padding-right: 12px;
+    text-align: right;
+}
+
+#close-btn {
+    width: 30px;
+    height: 30px;
+}
+
+a .fab {
+    font-size: 32px;
 }
   
 
@@ -494,6 +593,16 @@ a .fab {
         display: grid;
         grid-template-columns: 1fr 1fr;
         
+    }
+
+    .soon-text {
+        font-size: 1.8em;
+    }
+
+    .soon-container {
+        width: 90%;
+        margin: 0 auto;
+        padding-bottom: 20vh;
     }
 
    .menu {
@@ -644,6 +753,53 @@ a .fab {
 .testimonials-headline, .partners-section-headline {
     font-size: 2em;
 }
+
+#about-img {
+    width: 60%;
+    margin-top: 5vh;
+}
+
+#partners-landing-divider {
+    width: 100%;
+}
+
+.partners-sublanding {
+    grid-template-columns: 1fr;
+}
+
+#partners-headline {
+    margin-right: 0;
+}
+
+.landing-text {
+    margin: 0;
+}
+
+.testimonials-container {
+    width: 75%;
+}
+
+a .fab {
+    font-size: 32px;
+}
+
+
+
+
+
+
+
+}
+
+@media (min-width: 1280px) {
+    .navbar, .landing-container, .testimonials-container {
+        width: 65%;
+    }
+
+    .section {
+        width: 50%;
+    }
+
 
 }
 
